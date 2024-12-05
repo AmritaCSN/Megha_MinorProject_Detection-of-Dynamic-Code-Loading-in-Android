@@ -106,6 +106,7 @@ Listed below is the common sequence of experimentation followed for each of the 
 1. 	Clone the repository
 2. 	Datasets are available in /data folder.
 3.  Run the code books:
+   
     * Start with Code_Dataset_1.iypnb: Analysis focused on using only manifest based permissions as features. 
     * Then Run Code_Dataset_2.iypnb: Analysis using permissions and along with code based features.
 ---
