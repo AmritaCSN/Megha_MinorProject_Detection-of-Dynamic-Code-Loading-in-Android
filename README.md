@@ -75,12 +75,7 @@ Listed below is the common sequence of experimentation followed for each of the 
 
 5. Comparison of Model Performance
    - Compare performance of models for different feature sets, keeping the full feature set as the baseline.
-   - Model performance is evaluated by analyzing variation of the following metrics against number of features:
-     - Number of true positives
-     - Number of false negatives
-     - F1-score
-     - Training and testing time
-     - Reduction in F1-score with respect to the baseline.
+   - Model performance is evaluated by analyzing variation of the following metrics against number of features: Number of true positives, number of false negatives, f1-score, training and testing time and reduction in F1-score with respect to the baseline.
 
 6. Choosing the Optimal Model
    - Choose model with optimal performance on the metrics analyzed in previous step.
