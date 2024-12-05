@@ -34,7 +34,7 @@ The performance of classification model with different feature sets was analysed
 
 This project is organized into the following:
 
-| **Folder**                    | **File**                                   | **Description**                                                                                                                                     |
+| **Folder**                    | **File/Folder**                                   | **Description**                                                                                                                                     |
 |--------------------------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Data**                       | Test_Dataset_1.xlsx                        | Dataset created using `ExtractPermissions_APK.py` code, for use as a testing set in `Code_Dataset_1.ipynb`.                                        |
 |                                | Test_Dataset_2.xlsx                        | Dataset created using `ExtractFeatures_APK_Folder.py` code, for use as a testing set in `Code_Dataset_2.ipynb`.                                    |
@@ -92,16 +92,39 @@ Listed below is the common sequence of experimentation followed for each of the 
   
 ## How-to: Set up and Run the project
 
-### Dependencies
-
-|             |                                                                                  |
-|-----------------------|-----------------------------------------------------------------------------------------------------------|
-| **Oracle VirtualBox**  | Used to set up a virtual machine running Ubuntu to download apk samples and create test sets .                                     |
-| **Androguard**         | Used for analyzing APK files for feature extraction.                                                      |
-| **APKTool**            | Used for analyzing APK files for feature extraction.                                                      |
-| **Python**             | Used for automation of feature extraction, model training, and testing.                                    |
-| **Shell Scripting**    | Used to automate the extraction of APK files in compressed format.                                          |
-| **Visual Studio Code** | Installed with Jupyter Notebook and Python extensions to run the main code for model training, testing, and results analysis. |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align:center;">Dependencies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Oracle VirtualBox</strong></td>
+      <td>Used to set up a virtual machine running Ubuntu to download APK samples and create test sets.</td>
+    </tr>
+    <tr>
+      <td><strong>Androguard</strong></td>
+      <td>Used for analyzing APK files for feature extraction.</td>
+    </tr>
+    <tr>
+      <td><strong>APKTool</strong></td>
+      <td>Used for analyzing APK files for feature extraction.</td>
+    </tr>
+    <tr>
+      <td><strong>Python</strong></td>
+      <td>Used for automation of feature extraction, model training, and testing.</td>
+    </tr>
+    <tr>
+      <td><strong>Shell Scripting</strong></td>
+      <td>Used to automate the extraction of APK files in compressed format.</td>
+    </tr>
+    <tr>
+      <td><strong>Visual Studio Code</strong></td>
+      <td>Installed with Jupyter Notebook and Python extensions to run the main code for model training, testing, and results analysis.</td>
+    </tr>
+  </tbody>
+</table>
 
 1. 	Clone the repository
 2. 	Datasets are available in /data folder.
