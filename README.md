@@ -46,7 +46,8 @@ This project is organized into the following:
 
 ## Architectural Diagram
 
-![image](https://github.com/user-attachments/assets/dd2960f4-a0e2-4e0f-b992-4eab21203e34)
+![image](https://github.com/user-attachments/assets/d790f313-2523-4fe1-8112-5259fe206a53)
+
 
 
 ## Flow of Project Code
