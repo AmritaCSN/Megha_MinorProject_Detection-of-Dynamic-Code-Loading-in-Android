@@ -37,11 +37,7 @@ This project is organized into the following:
 | **Folder**                    | **File/Folder**                                   | **Description**                                                                                                                                     |
 |--------------------------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Data**                       | Test_Dataset_1.xlsx                        | Dataset created using `ExtractPermissions_APK.py` code, for use as a testing set in `Code_Dataset_1.ipynb`.                                        |
-|                                | Test_Dataset_2.xlsx                        | Dataset created using `ExtractFeatures_APK_Folder.py` code, for use as a testing set in `Code_Dataset_2.ipynb`.                                    |
-|                                | APK_samples_compressed_Test_1 (Folder)     | APK samples (in zip format) collected from Malware Bazaar using the 'cereberus' tag.                                                              |
-|                                | APK_samples_extracted_Test_2 (Folder)      | Comprises Phoenix malware sample (from Virushare, in folder format) and benign sample (from APKPure, in APK format).                             |
-|                                | MH-100K_Dataset (Folder)                  | Comprises the files for the MH-100K Dataset.                                                                                                       |
-|                                | Android_Malgenome_Dataset (Folder)         | Comprises files for the Android Malgenome Dataset.                                                                                                 |
+|                                | Test_Dataset_2.xlsx                        | Dataset created using `ExtractFeatures_APK_Folder.py` code, for use as a testing set in `Code_Dataset_2.ipynb`. |
 | **Notebooks**                  | Code_Dataset_1.ipynb                       | Code for analyzing model performance with different feature sets using the MH-100K Dataset.                                                       |
 |                                | Code_Dataset_2.ipynb                       | Code for analyzing model performance with different feature sets using the Android Malgenome Dataset.                                               |
 | **Scripts**                    | ZIP_extract_script.sh                      | Script to unzip compressed APKs into a folder.                                                                                                     |
@@ -117,7 +113,7 @@ Listed below is the common sequence of experimentation followed for each of the 
     </tr>
     <tr>
       <td><strong>Shell Scripting</strong></td>
-      <td>Used to automate the extraction of APK files in compressed format.</td>
+      <td>Used to automate the extraction of APK files from compressed format.</td>
     </tr>
     <tr>
       <td><strong>Visual Studio Code</strong></td>
