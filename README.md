@@ -57,37 +57,37 @@ This project is organized into the following:
 
 Listed below is the common sequence of experimentation followed for each of the datasets:
 
-1. Import the Dataset
+1. **Import the Dataset**
    - Load the dataset as an excel file.
 
-2. Dataset Splitting
+2. **Dataset Splitting**
    - Split the dataset into a training and testing set.
 
-3. Declaring Feature Sets
+3. **Declaring Feature Sets**
    - Create lists with different sets of features.
    - The feature set of all features in the dataset is taken as the baseline.
 
-4. Model Training and Testing for Each Feature Set
+4. **Model Training and Testing for Each Feature Set**
    - Extract Smaller Train and Test Sets:
      - Extract a smaller train and test set containing feature columns from each feature set.
    - Training and Testing Models:
      - Train a classification model and test it using the test set for each feature set.
 
-5. Comparison of Model Performance
+5. **Comparison of Model Performance**
    - Compare performance of models for different feature sets, keeping the full feature set as the baseline.
    - Model performance is evaluated by analyzing variation of the following metrics against number of features: Number of true positives, number of false negatives, f1-score, training and testing time and reduction in F1-score with respect to the baseline.
 
-6. Choosing the Optimal Model
+6. **Choosing the Optimal Model**
    - Choose model with optimal performance on the metrics analyzed in previous step.
 
-7. Feature Analysis
+7. **Feature Analysis**
    - The correct and misclassified samples are analyzed to observe the effect of selected features based on feature distribution.
 
-8. Testing with New Samples
+8. **Testing with New Samples**
    - Collect APK samples to create a testset.
    - Use python scripts to extract features and create a test set from the collected APK files.
      
-9. Model Testing with the Created Test Set:
+9. **Model Testing with the Created Test Set**
      - The model is tested using the created test set.
   
 ## How-to: Set up and Run the project
