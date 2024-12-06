@@ -1,5 +1,5 @@
 # Megha_MinorProject_Detection-of-Dynamic-Code-Loading-in-Android
-This repository contains implementation code and necessary data files for the project "Secure Scan: Android Malware Detector", focused on identification of dynamic code loading behavior in android malware.
+This repository contains implementation code and necessary data files for the project "Detection of Dynamic Code Loading in Android", focused on identification of dynamic code loading behavior in android malware.
 
 ## Overview
 
